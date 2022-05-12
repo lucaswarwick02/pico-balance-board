@@ -1,4 +1,6 @@
 # Pico Balance Board
 Using the motion tracking capabilites from the ICM-20948 in addition to the Maker Pi Board to detect imbalance.
-## To build and compile project
-For building and running the project, there are a few things which need to be done beforehand. Firstly, your Pico must be running CircuitPython (I have provided the links which I used for this in the below section). In addition, you will need the libraries (located inside the lib folder) to be added to your Pico's lib folder. From there, you can drop .py files in to the Pico and they should (hopefully) run using Thonny. 
+## C
+Inside the C folder are the required C and cmake files needed (as well as the corresponding libraries) to create the balance board. This project is labelled as Medium, as the C code required to use the ICM as well as the display are more complex than MicroPython.
+## Circuit Python
+Inside the CircuitPython folder is the required CircuitPython file as well as the required libraries. This challenge is labelled as Easy, as the code is simpler to use, in addition to only using the Maker Board's RGB LED, instead of the M4L's display screen.
